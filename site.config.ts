@@ -2,22 +2,22 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: '4ac5e9d299484b62b5d9009269f237c6',
+  rootNotionPageId: 'd8a42082a8774fcba91523af7b63f826',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'MOOD MNKY BLOG',
-  domain: 'blog.moodmnky.com',
-  author: 'Simeon Bowman',
+  name: 'Law Gurl',
+  domain: 'lawherbae.moodmnky.com',
+  author: 'Esther Bowman',
 
   // open graph metadata (optional)
-  description: 'A blog to keep you up dated on the latest at MOOD MNKY',
+  description: 'A blog for Lawherbae and knowledge base for Law Gurl',
 
   // social usernames (optional)
-  twitter: 'moodmnky',
+  twitter: 'lawherbae',
   github: 'MOODMNKY-LLC',
   linkedin: '',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
